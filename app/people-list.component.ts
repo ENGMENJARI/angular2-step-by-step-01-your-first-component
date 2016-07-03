@@ -6,7 +6,7 @@ import { Person } from './person';
   template: `
   <!-- this is the new syntax for ng-repeat -->
   <ul>
-    <li *ngFor="#person of people">
+    <li *ngFor="let person of people">
      {{person.name}} 
     </li>
   </ul>
