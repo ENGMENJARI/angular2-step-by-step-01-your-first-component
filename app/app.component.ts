@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { PeopleListComponent } from './people-list.component';
 
 @Component({
     selector: 'my-app',
@@ -7,8 +6,7 @@ import { PeopleListComponent } from './people-list.component';
     <h1>{{title}}</h1>
     <people-list>
     `,
-    directives: [PeopleListComponent]
 })
-export class AppComponent { 
+export class AppComponent {
     title: string = 'Star Wars Pplz!!!';
 }
